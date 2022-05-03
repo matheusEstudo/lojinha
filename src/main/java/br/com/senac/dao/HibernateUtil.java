@@ -16,6 +16,7 @@ public class HibernateUtil {
             cfg.addAnnotatedClass(Cliente.class);
             cfg.addAnnotatedClass(Vendedor.class);
             cfg.addAnnotatedClass(Produto.class);
+            cfg.addAnnotatedClass(Vendas.class);
 
             cfg.configure("/META-INF/hibernate.cfg.xml");
             StandardServiceRegistryBuilder build = new StandardServiceRegistryBuilder().

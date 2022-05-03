@@ -28,7 +28,7 @@ public class Vendedor implements Serializable {
     @Column(length = 16)
     private String cpf;
 
-    @Column(length = 20, nullable = false)
+    @Column(length = 20)
     private String tipoUsuario;
 
     @Column(length = 130, nullable = false)

@@ -1,5 +1,8 @@
 package br.com.senac.dao.vendedor;
 
-public interface VendedorDao {
+import br.com.senac.dao.BaseDao;
+import br.com.senac.entidade.Vendedor;
+
+public interface VendedorDao extends BaseDao<Vendedor, Long> {
 
 }
